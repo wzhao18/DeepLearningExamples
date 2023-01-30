@@ -134,7 +134,7 @@ models:
                 memory_format: nhwc
             FP32:
                 <<: *resnet_params_896
-                batch_size: 112
+                batch_size: 32
         DGX1V-16G:
             <<: *RN50_DGX1V
         DGX1V-32G:
